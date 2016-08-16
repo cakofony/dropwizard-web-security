@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compile "io.dropwizard:dropwizard-core:$dropwizardVersion"
+    compileOnly "io.dropwizard:dropwizard-core:$dropwizardVersion"
 
     processor "org.immutables:value:$immutablesVersion"
 
